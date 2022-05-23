@@ -468,7 +468,7 @@ body {
   .image-hero-desktop {
     display: flex;
     width: 480px;
-    margin-top: 11px;
+    margin-top: -56px;
     margin-left: 78px;
   }
   .info {
