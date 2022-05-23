@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="menu hidden-desktop">
+        <a class="logo-container" href="/"
+          ><img class="logo" src="images/logo.svg" alt="snap logo"
+        /></a>
+        <div class="menu-icon-container">
+          <a class="menu-icon hidden-desktop" href=""
+            ><img src="images/icon-menu.svg" alt="menu icon"
+          /></a>
+          <a class="menu-icon-close hidden" href="#"
+            ><img src="images/icon-close-menu.svg" alt="menu-icon-close"
+          /></a>
+        </div>
+
+        <div class="links-container hidden">
+          <ul class="links-nav">
+            <li id="features" class="link-nav">
+              <a class="link features" href="#">
+                Features
+                <span class="arrow">
+                  <img
+                    class="arrow-down"
+                    src="images/icon-arrow-down.svg"
+                    alt="arrow down"
+                  />
+                  <img
+                    class="arrow-up hidden"
+                    src="images/icon-arrow-up.svg"
+                    alt="arrow up"
+                  /> </span
+              ></a>
+
+              <ul class="subMenu subMenu-features hidden">
+                <li class="subMenu-item">
+                  <div>
+                    <a class="subMenu-link" href="#"
+                      ><img
+                        class="subMenu-icon-img"
+                        src="images/icon-todo.svg"
+                        alt="icon-todo"
+                      />
+                      Todo List
+                    </a>
+                  </div>
+                </li>
+
+                <li class="subMenu-item">
+                  <div>
+                    <a class="subMenu-link" href="#">
+                      <img
+                        class="subMenu-icon-img"
+                        src="images/icon-calendar.svg"
+                        alt="icon-calendar"
+                      />
+                      Calendar
+                    </a>
+                  </div>
+                </li>
+                <li class="subMenu-item">
+                  <div>
+                    <a class="subMenu-link" href="#">
+                      <img
+                        class="subMenu-icon-img"
+                        src="images/icon-reminders.svg"
+                        alt="icon-reminders"
+                      />Reminders
+                    </a>
+                  </div>
+                </li>
+                <li class="subMenu-item">
+                  <div>
+                    <a class="subMenu-link" href="#"
+                      ><img
+                        class="subMenu-icon-img"
+                        src="images/icon-planning.svg"
+                        alt="icon-planning"
+                      />
+                      Planning
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li id="company" class="link-nav">
+              <a class="link Company" href="#">
+                Company
+                <span class="arrow">
+                  <img
+                    class="arrow-down2"
+                    src="images/icon-arrow-down.svg"
+                    alt="arrow down"
+                  />
+                  <img
+                    class="arrow-up2 hidden"
+                    src="images/icon-arrow-up.svg"
+                    alt="arrow up"
+                  /> </span
+              ></a>
+
+              <ul class="subMenu subMenu-company hidden">
+                <li class="subMenu-item-2">
+                  <a class="subMenu-link" href="#"> History </a>
+                </li>
+                <li class="subMenu-item-2">
+                  <a class="subMenu-link" href="#"> Our Team </a>
+                </li>
+                <li class="subMenu-item-2">
+                  <a class="subMenu-link" href="#"> Blog </a>
+                </li>
+              </ul>
+            </li>
+            <li class="link-nav">
+              <a class="link careers" href="#"> Careers</a>
+            </li>
+            <li class="link-nav">
+              <a class="link about" href="#"> About</a>
+            </li>
+          </ul>
+
+          <ul class="menu-reg">
+            <li class="link-reg">
+              <a class="link login" href="#"> Login</a>
+            </li>
+            <li class="link-reg">
+              <a class="link register" href="#"> Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav class="menu-desktop hidden-mobile">
+        <a class="logo-container" href="/"
+          ><img class="logo" src="images/logo.svg" alt="snap logo"
+        /></a>
+        <div class="menu-icon-container hidden-desktop">
+          <a class="menu-icon " href=""
+            ><img src="images/icon-menu.svg" alt="menu icon"
+          /></a>
+          <a class="menu-icon-close hidden" href="#"
+            ><img src="images/icon-close-menu.svg" alt="menu-icon-close"
+          /></a>
+        </div>
+
+        <div class="links-container-desktop">
+          <ul class="links-nav">
+            <li id="features-desktop" class="link-nav">
+              <a class="link features-desktop" href="#">
+                Features
+                <span class="arrow">
+                  <img
+                    class="arrow-down-desktop "
+                    src="images/icon-arrow-down.svg"
+                    alt="arrow down"
+                  />
+                  <img
+                    class="arrow-up-desktop hidden"
+                    src="images/icon-arrow-up.svg"
+                    alt="arrow up"
+                  /> </span
+              ></a>
+
+              <ul class="subMenu subMenu-features-desktop hidden">
+                <li class="subMenu-item">
+                  <div>
+                    <a class="subMenu-link" href="#"
+                      ><img
+                        class="subMenu-icon-img"
+                        src="images/icon-todo.svg"
+                        alt="icon-todo"
+                      />
+                      Todo List
+                    </a>
+                  </div>
+                </li>
+
+                <li class="subMenu-item">
+                  <div>
+                    <a class="subMenu-link" href="#">
+                      <img
+                        class="subMenu-icon-img"
+                        src="images/icon-calendar.svg"
+                        alt="icon-calendar"
+                      />
+                      Calendar
+                    </a>
+                  </div>
+                </li>
+                <li class="subMenu-item">
+                  <div>
+                    <a class="subMenu-link" href="#">
+                      <img
+                        class="subMenu-icon-img"
+                        src="images/icon-reminders.svg"
+                        alt="icon-reminders"
+                      />Reminders
+                    </a>
+                  </div>
+                </li>
+                <li class="subMenu-item">
+                  <div>
+                    <a class="subMenu-link" href="#"
+                      ><img
+                        class="subMenu-icon-img"
+                        src="images/icon-planning.svg"
+                        alt="icon-planning"
+                      />
+                      Planning
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li id="company-desktop" class="link-nav">
+              <a class="link Company" href="#">
+                Company
+                <span class="arrow">
+                  <img
+                    class="arrow-down2-desktop "
+                    src="images/icon-arrow-down.svg"
+                    alt="arrow down"
+                  />
+                  <img
+                    class="arrow-up2-desktop hidden"
+                    src="images/icon-arrow-up.svg"
+                    alt="arrow up"
+                  /> </span
+              ></a>
+
+              <ul class="subMenu subMenu-company-desktop hidden">
+                <li class="subMenu-item-2">
+                  <a class="subMenu-link" href="#"> History </a>
+                </li>
+                <li class="subMenu-item-2">
+                  <a class="subMenu-link" href="#"> Our Team </a>
+                </li>
+                <li class="subMenu-item-2">
+                  <a class="subMenu-link" href="#"> Blog </a>
+                </li>
+              </ul>
+            </li>
+            <li class="link-nav">
+              <a class="link careers" href="#"> Careers</a>
+            </li>
+            <li class="link-nav">
+              <a class="link about" href="#"> About</a>
+            </li>
+          </ul>
+
+          <ul class="menu-reg">
+            <li class="link-reg">
+              <a class="link login" href="#"> Login</a>
+            </li>
+            <li class="link-reg">
+              <a class="link register" href="#"> Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-container">
+      <div class="hero-container">
+        <img
+          class="img-hero-mobile hidden-desktop"
+          src="images/image-hero-mobile.png"
+          alt="image-hero-mobile"
+        />
+        <img
+          class="image-hero-desktop hidden-mobile"
+          src="images/image-hero-desktop.png"
+          alt="image-hero-desktop.png"
+        />
+      </div>
+
+      <div class="info-container">
+        <div class="info">
+          <h1 class="title">Make remote work</h1>
+          <p class="description">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="btn-primary">Learn more</button>
+        </div>
+
+        <div class="clients-container">
+          <a href="#" class="clients">
+            <img
+              class="client databiz"
+              src="images/client-databiz.svg"
+              alt="client-databiz"
+            />
+          </a>
+
+          <a href="#" class="clients">
+            <img
+              class="client audiophile"
+              src="images/client-audiophile.svg"
+              alt="client-audiophile"
+            />
+          </a>
+
+          <a href="#" class="clients">
+            <img
+              class="client meet"
+              src="images/client-meet.svg"
+              alt="client-meet"
+            />
+          </a>
+
+          <a href="#" class="clients">
+            <img
+              class="client maker"
+              src="images/client-maker.svg"
+              alt="client-maker"
+            />
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/leoxr">https://github.com/leoxr</a>.
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
